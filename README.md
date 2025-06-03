@@ -23,9 +23,9 @@ Desarrollar un modelo de aprendizaje profundo multimodal capaz de predecir categ
 
 ## Autores
 
-- Mateo Holguín
-- Fabián Sánchez  
-- Melissa Ciro  
+- Fabian David Sánchez Martínez
+- Mateo Holguín Carvalho
+- Melissa Andrea Ciro Peña
 
 ---
 
