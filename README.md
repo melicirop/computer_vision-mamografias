@@ -102,8 +102,8 @@ Métricas evaluadas: Accuracy, Recall y F1-Score por clase
 
 El modelo combina dos fuentes de información:
 
-- Imágenes de mamografías procesadas con CNNs (MobileNet)
-- Datos tabulares clínicos procesados con una red neuronal multicapa (MLP)
+- Imágenes de mamografías procesadas con CNNs (ResNet18)
+- Datos tabulares clínicos procesados con una red neuronal multicapa
 -Ambas salidas se concatenan para una predicción conjunta en una capa densa final.
 
 ---
