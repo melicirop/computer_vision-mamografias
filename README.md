@@ -2,6 +2,8 @@
 
 Este proyecto fue desarrollado como trabajo final del curso **Visión por Computador** de la **Maestría en Ciencia de los Datos y Analítica** de la **Universidad EAFIT**. El objetivo principal fue construir un modelo de deep learning que combine datos **visuales** (mamografías) y **tabulares** (características clínicas) para realizar una clasificación precisa tratando de emular las decisiones que toma un radiologo al momento de decidir si un paciente debe ser remitido a estudios mas avanzados y determinar si este tiene o no cáncer de seno.
 
+Proyecto basado en la información de la competencia en kaggle [text](https://www.kaggle.com/competitions/rsna-breast-cancer-detection)
+
 ---
 
 ## Objetivo
@@ -44,14 +46,12 @@ Desarrollar un modelo de aprendizaje profundo multimodal capaz de predecir categ
 ```plaintext
 📦 cancer_classification/
 │
-├── 📁 data/                   # Datos tabulares e imágenes de mamografías
-├── 📁 models/                 # Modelos entrenados y checkpoints
+├── 📁 data/                   # Datos tabulares e imágenes de mamografías, solo se carga una muestra de imagenes para ver las imagenes totales ver: [text](https://www.kaggle.com/competitions/rsna-breast-cancer-detection)
 ├── 📁 notebooks/              # Exploración, preprocesamiento y entrenamiento
 ├── 📁 streamlit_app/          # Aplicación para despliegue interactivo
-│   └── cancer_app_streamlit.py
 ├── 📄 requirements.txt        # Dependencias del proyecto
 ├── 📄 README.md               # Documentación del proyecto
-└── 📄 cancer_model.py         # Script principal para entrenamiento y evaluación
+
 ```
 
 ---
@@ -109,13 +109,9 @@ El modelo combina dos fuentes de información:
 ---
 
 ## Referencias
-DDSM Mammography Dataset
-
-Simonyan & Zisserman, "Very Deep Convolutional Networks for Large-Scale Image Recognition"
-
-Kermany et al., Cell, 2018: "Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning"
-
-Papers with Code: Multimodal Classification
+"Deep Learning to Improve Breast Cancer Detection on Screening Mammography"
+Li Shen, Laurie R. Margolies, Joseph H. Rothstein, Eugene Fluder, Russell McBride & Weiva Sieh
+Scientific Reports, 9, Article number: 12495 (2019)
 
 ---
 
