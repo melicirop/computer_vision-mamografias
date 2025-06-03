@@ -2,7 +2,7 @@
 
 Este proyecto fue desarrollado como trabajo final del curso **Visión por Computador** de la **Maestría en Ciencia de los Datos y Analítica** de la **Universidad EAFIT**. El objetivo principal fue construir un modelo de deep learning que combine datos **visuales** (mamografías) y **tabulares** (características clínicas) para realizar una clasificación precisa tratando de emular las decisiones que toma un radiologo al momento de decidir si un paciente debe ser remitido a estudios mas avanzados y determinar si este tiene o no cáncer de seno.
 
-Proyecto basado en la información de la competencia en kaggle [text](https://www.kaggle.com/competitions/rsna-breast-cancer-detection)
+Proyecto basado en la información de la competencia en kaggle [rsna-breast-cancer-detection](https://www.kaggle.com/competitions/rsna-breast-cancer-detection)
 
 ---
 
